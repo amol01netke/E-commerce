@@ -51,7 +51,7 @@
 }
 
 .main{
-    background:url("/images/banner.jfif") no-repeat;
+    background:url("../images/banner.jfif") no-repeat;
     background-size: cover;
     height: 100vh;
     background-position: 50% 50%;
