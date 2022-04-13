@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: bold;
+}
+
+.navbar-brand:hover{
+    color: black;
+}
+
+.navbar-nav{
+    margin-left: 100px;
+}
+
+.nav-link{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    margin:0px 10px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.nav-link:hover{
+    color: red;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 10px;
+    outline: none;
+    border:1px solid black;
+    margin-right: -30px;
+}
+
+.btn0{
+    height:40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+
+.main{
+    background:url('/images/images.jfif') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+
+.main h1{
+    font-size: 5rem;
+    font-weight: 700;
+    padding-top: 100px;
+    color: white;
+}
+
+.btn1{
+    height: 45px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    padding: 0px 50px;
+    font-weight: 500;
+}
+
+.card:hover{
+    box-shadow: -47px -19px 76px -56px rgba(186,129,129,0.78);
+    -webkit-box-shadow: -47px -19px 76px -56px rgba(186,129,129,0.78);
+    -moz-box-shadow: -47px -19px 76px -56px rgba(186,129,129,0.78);
+    transition: 0.5s;
+}
+
+.btn3{
+    height: 45px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    padding: 0px 50px;
+    font-weight: 500;
+}
