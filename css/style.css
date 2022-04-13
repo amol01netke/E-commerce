@@ -51,10 +51,11 @@
 }
 
 .main{
-    background:url("../images/banner.jfif") no-repeat;
+    background-image:url("../images/banner.jfif");
+    background-repeat:no-repeat;
     background-size: cover;
     height: 100vh;
-    background-position: 50% 50%;
+    background-position: center center;
 }
 
 .main h1{
